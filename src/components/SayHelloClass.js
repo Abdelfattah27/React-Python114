@@ -16,7 +16,8 @@ class SayHelloClass extends Component {
 
     }
     render() {
-        console.log("Called")
+        const x = "hamada"
+        console.log(`Call${x}`)
         //  this.myName = "unCover My Name"
         return <button onClick={this.handleClick}>{this.state.myName}</button>
     }
